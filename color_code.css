@@ -1,0 +1,72 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-weight: normal;
+    background-color: steelblue;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.square {
+    background-color: tomato;
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: all 0.6s;
+}
+
+#result{
+    display: inline-block;
+    width: 20%;
+    text-transform: uppercase;
+}
+
+#container  {
+    width: 33%;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+
+.selected   {
+    background-color: steelblue;
+    color: white;
+}
+
+#pageBar    {
+    background-color: aliceblue;
+    text-align: center;
+    height: 30px;
+}
+
+button  {
+    background-color: none;
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.6s;
+}
+
+button:hover{
+    color: white;
+    background-color: steelblue;
+}
+
+#colorpicker{
+    font-size: 200%;
+}
